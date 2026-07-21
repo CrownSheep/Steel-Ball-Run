@@ -1,0 +1,76 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\..\..\..\..\..\.nuget\packages\monogame.aseprite\6.3.2\content\Monogame.Aseprite.Content.Pipeline.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin background.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:background.aseprite
+
+#begin ball.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:ball.aseprite
+
+#begin gravity_arrow.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:gravity_arrow.aseprite
+
+#begin mine.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:mine.aseprite
+
+#begin north.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:north.aseprite
+
+#begin numbers.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:numbers.png
+
+#begin south.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:south.aseprite
+
+#begin start_text.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:start_text.aseprite
+
+#begin steel_wall.aseprite
+/importer:AsepriteFileContentImporter
+/processor:AsepriteFileContentProcessor
+/processorParam:PremultiplyAlpha=True
+/build:steel_wall.aseprite
+
